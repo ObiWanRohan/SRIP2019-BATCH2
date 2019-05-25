@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    font-family : Roboto;
 }
 
 body{
@@ -7,10 +8,12 @@ body{
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient( rgb(255, 255, 255), rgba(0,0,255,0.6))
+    background-image: linear-gradient( rgba(0,188,212,0.65), rgb(255, 255, 255));
 }
 
-img {
+img.ownImage {
+    height: 380px;
+    /* width: 200px; */
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 5px;
@@ -18,6 +21,12 @@ img {
 }
 
 p{
+    font-size : 16pt;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.centered{
     font-size : 16pt;
     text-align: center;
     margin-left: 20px;
@@ -28,4 +37,9 @@ table{
     font-size: 18pt;
     margin-left: auto;
     margin-right: auto;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
 }
